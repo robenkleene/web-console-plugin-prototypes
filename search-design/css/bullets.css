@@ -1,0 +1,25 @@
+body .bullets-selected {
+	background-color: #BCD7D5 !important;
+}
+
+.bullets-collapsed {
+	background-color: yellow !important;
+	border-right: 1px solid red;
+}
+
+
+/* Hierarchical */
+li.bullets-collapsed li,
+li.bullets-collapsed ul {
+	display: none;
+}
+
+/* Headers */
+h1.bullets-collapsed + *,
+h2.bullets-collapsed + *,
+h3.bullets-collapsed + *,
+h4.bullets-collapsed + *,
+h5.bullets-collapsed + *,
+h6.bullets-collapsed + * {
+	display: none;
+}
